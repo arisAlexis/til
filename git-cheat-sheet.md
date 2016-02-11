@@ -20,3 +20,6 @@ git config --global credential.helper cache
 
 change a remote
 `git remote set-url origin somegiturl`
+
+discard all changes you made since last commit
+`git reset --hard`
