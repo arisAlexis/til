@@ -1,0 +1,22 @@
+create branch from old commit
+`git branch <name> a9c146a09505837ec03b`
+
+add new branch to remote
+`git push -u origin feature_branch_name`
+
+copy a file from another branch
+`git checkout otherbranch myfile.txt`
+
+if behind a firewall use:
+`git config --global url."https://".insteadOf git://`
+
+to make github work with git on windows 7 you need to generate a key with git for windows and set a username and password  
+`git config --global user.name "username"`  
+`git config --global user.email "myemail"`  
+and then you need to paste the key in github website. then you can clone
+
+keep the credentials
+git config --global credential.helper cache
+
+change a remote
+`git remote set-url origin somegiturl`
