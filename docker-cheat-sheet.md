@@ -7,4 +7,4 @@
 `docker rm <existing_container_name>`  
 `docker rmi <image_name>`  
 `docker commit <existing_container_name> <image_name>`  
-`docker run -d -it -v <localcodepath>:<remotecodepath> <containername>`  
+`docker run -d -it -p localport:remoteport -v <localcodepath>:<remotecodepath> <containername>`  
