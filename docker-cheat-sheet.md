@@ -8,3 +8,4 @@
 `docker rmi <image_name>`  
 `docker commit <existing_container_name> <image_name>`  
 `docker run -d -it -p localport:remoteport -v <localcodepath>:<remotecodepath> <image_name> bash`
+`docker cp foo.txt mycontainer:/foo.txt`
