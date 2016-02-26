@@ -23,3 +23,6 @@ change a remote
 
 discard all changes you made since last commit
 `git reset --hard`
+
+revert to specific commit  
+`git revert 073791e7dd71b90daa853b2c5acc2c925f02dbc6`
