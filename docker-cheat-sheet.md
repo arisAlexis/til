@@ -10,3 +10,4 @@
 `docker run -d -it -p localport:remoteport -v <localcodepath>:<remotecodepath> <image_name> bash`  
 `docker cp foo.txt mycontainer:/foo.txt`  
 `/sbin/ip route|awk '/default/ { print $3 }'` // quick and dirty hack to find the host's ip 
+`docker load < container.tar`  
