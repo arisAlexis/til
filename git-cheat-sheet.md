@@ -27,5 +27,5 @@ discard all changes you made since last commit
 revert to specific commit  
 `git revert 073791e7dd71b90daa853b2c5acc2c925f02dbc6`
 
-tag a specific point in time
+tag a specific point in time  
 `git tag -a v1 -m "first edition"; git push origin v1`
