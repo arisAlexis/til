@@ -1,1 +1,1 @@
-Remove-Item .\foldertodelete -Force -Recurse
+`Remove-Item .\foldertodelete -Force -Recurse`
