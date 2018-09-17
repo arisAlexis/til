@@ -29,3 +29,13 @@ revert to specific commit
 
 tag a specific point in time  
 `git tag -a v1 -m "first edition"; git push origin v1`
+
+delete a remote branch  
+`git push origin --delete branch`  
+
+remove tracked file  
+`git rm --cached filename`  
+
+keep tracked file without commiting changes  
+`git update-index --assume-unchanged file`  
+
