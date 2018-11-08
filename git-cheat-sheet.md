@@ -39,3 +39,6 @@ remove tracked file
 keep tracked file without commiting changes  
 `git update-index --assume-unchanged file`  
 
+checkout remote branch
+`git pull && git checkout name origin/name`
+
