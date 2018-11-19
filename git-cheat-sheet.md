@@ -40,5 +40,5 @@ keep tracked file without commiting changes
 `git update-index --assume-unchanged file`  
 
 checkout remote branch
-`git pull && git checkout name origin/name`
+`git fetch origin name && git checkout name `
 
