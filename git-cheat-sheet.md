@@ -42,3 +42,9 @@ keep tracked file without commiting changes
 checkout remote branch
 `git fetch origin name && git checkout name `
 
+pull unrelated histories for first commits
+`git pull origin master --allow-unrelated-histories`
+
+add remote origin
+`git remote add origin https://bitbucket/xxx`
+
