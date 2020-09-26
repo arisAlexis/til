@@ -1,3 +1,6 @@
+discard local changes to a file
+`git checkout filename`
+
 create branch from old commit  
 `git branch <name> a9c146a09505837ec03b`
 
