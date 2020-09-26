@@ -48,3 +48,6 @@ pull unrelated histories for first commits
 add remote origin
 `git remote add origin https://bitbucket/xxx`
 
+git clone speficic branch
+`git clone --branch <branchname> <remote-repo-url>`
+
