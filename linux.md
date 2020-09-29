@@ -5,7 +5,7 @@ unknown
 `du -m -d 1 -a | sort -n `
 
 fixes disk errors
-`Sudo Umount /dev/sdb4; sudo ntfsfix /dev/sdxX `
+`sudo umount /dev/sdb4; sudo ntfsfix /dev/sdxX `
  
 glances for server monitoring cpu,mem 
 free look at the -+ buffers line is the accurate one 
